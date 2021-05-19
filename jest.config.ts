@@ -1,0 +1,14 @@
+/*
+ * For a detailed explanation regarding each configuration property and type check, visit:
+ * https://jestjs.io/docs/en/configuration.html
+ */
+
+export default {
+  clearMocks: true,
+  coverageDirectory: "coverage",
+  preset: "ts-jest",
+  testEnvironment: "node",
+  transform: {
+    "^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/node_modules/babel-jest",
+  }
+};
